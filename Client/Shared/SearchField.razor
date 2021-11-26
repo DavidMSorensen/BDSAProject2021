@@ -1,0 +1,21 @@
+
+<div class = SearchBar>
+    <input type="text" id="searchInput" placeholder="Search">
+    <button class="btn btn-primary" @onclick="Search">
+
+    </button>
+
+    <div>
+        <p role="status">You have searched: @count times</p>
+    </div>
+</div>
+
+@code {
+    private string S;
+    private int count = 0;
+
+    private void Search()
+    {
+        count ++;
+    }
+}

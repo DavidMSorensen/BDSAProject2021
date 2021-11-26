@@ -1,0 +1,2 @@
+Make the Blazorwasm:
+dotnet new blazorwasm -au SingleOrg --api-client-id "890643f7-4176-462f-90f9-5ce4ec82e63d" --app-id-uri "890643f7-4176-462f-90f9-5ce4ec82e63d" --client-id "9809f739-94d6-4b17-855f-21a356d6dcb1" --default-scope "API.Access" --domain "deathimicloud.onmicrosoft.com" -ho -o TrialProject --tenant-id "36467afa-db15-4ac0-be1f-7cdeef0a07d3"
